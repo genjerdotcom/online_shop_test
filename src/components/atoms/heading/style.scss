@@ -1,0 +1,28 @@
+@import "../../properties.scss";
+
+.h {
+    font-weight: var(--font-weight-bold);
+    line-height: 1.5;
+    color: var(--color-black);
+}
+  
+.h1 { font-size: var(--font-size-xxxxl); margin-bottom: 10px; }
+.h2 { font-size: var(--font-size-xxxl); margin-bottom: 10px; }
+.h3 { font-size: var(--font-size-xxl); margin-bottom: 10px; }
+.h4 { font-size: var(--font-size-xl); margin-bottom: 10px; }
+.h5 { font-size: var(--font-size-l); margin-bottom: 10px; }
+.h6 { font-size: var(--font-size-m); margin-bottom: 10px;}
+
+.cursor-pointer{ cursor: pointer; }
+.h.text-center{ text-align: center; }
+.h.text-left{ text-align: left; }
+.h.text-right{ text-align: right; }
+.h.color-black{ color: #000; }
+.h.bold { font-weight: bold; }
+.h.error{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}

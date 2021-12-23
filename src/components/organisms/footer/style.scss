@@ -1,0 +1,27 @@
+@import "../../properties.scss";
+
+.footer{
+    background-color: var(--color-silver);
+    position: fixed;
+    padding: 20px 0px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    .container{
+        width:1124px;
+        margin:auto;
+        max-width: 100%;
+        display: block;
+        img{
+            filter: brightness(100) invert(0);
+            padding: 15px 5px;
+            width: 20px;
+        }
+        p{
+            width: 100%;
+            color:  var(--color-black);
+            text-align: center;
+        }
+    }
+}

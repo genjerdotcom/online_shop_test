@@ -1,0 +1,45 @@
+@import "../../properties.scss";
+.link{
+    text-align: center;
+    font-size: var(--font-size-s);
+    cursor: pointer;
+    color: var(--color-black);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.xxs{
+    font-size: var(--font-size-xxs);
+}
+
+a.xs{
+    font-size: var(--font-size-xs);
+}
+
+a.s{
+    font-size: var(--font-size-s);
+}
+
+a.m{
+    font-size: var(--font-size-m);
+}
+
+a.l{
+    font-size: var(--font-size-l);
+}
+
+a.xl{
+    font-size: var(--font-size-xl);
+}
+
+a.xxl{
+    font-size: var(--font-size-xxl);
+}
+
+a.xxxl{
+    font-size: var(--font-size-xxxl);
+}
+
+a.xxxxl{
+    font-size: var(--font-size-xxxxl);
+}

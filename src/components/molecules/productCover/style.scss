@@ -1,0 +1,12 @@
+.movies--item--cover{
+    overflow: hidden;
+    background-size:100% auto;
+    background-position: center;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        height: 280px;
+        max-height: 90vh;
+    }
+}

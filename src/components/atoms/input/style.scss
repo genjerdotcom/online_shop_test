@@ -1,0 +1,28 @@
+@import "../../properties.scss";
+
+input.searchInput {
+    width: 32rem;
+    height: 3rem;
+    padding: 0 1rem;
+    background: none;
+    border: 1px solid var(--color-black);
+    box-shadow: none;
+    transition: transform 0.1s ease-in-out;
+    -webkit-transition: transform 0.1s ease-in-out;
+    font-size: 15px;
+    color: var(--color-black);
+}
+
+input.searchInput::placeholder {
+    color: var(--color-black);
+    font-size: 15px;
+    top:0;
+}
+
+input.searchInput:focus::placeholder {
+    text-indent: -999px
+}
+
+input.searchInput:focus {
+    outline: none;
+}

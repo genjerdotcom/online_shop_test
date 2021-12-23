@@ -1,0 +1,10 @@
+version: '3'
+services:          
+    omdb_reactjs:
+        build: .     
+        container_name: omdb_reactjs
+        ports:
+            - "3000:3000"
+        volumes: 
+            - ./:/omdb_reactjs
+            - /omdb_reactjs/node_modules

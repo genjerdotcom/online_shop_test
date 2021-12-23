@@ -1,11 +1,11 @@
-# ONLINE SHOP Simple ReactJS 
+# OMDBAPI ReactJS 
 
-using Fake API [https://fakestoreapi.com/docs](FakeAPI)
+[OMDBAPI](https://omdbapi.com/)
 
 ## Case Study
 
-#### Get Products
-#### Get Product Detail
+#### Get Movies From Search Keyword
+#### Get Movie Detail
 
 ## Getting started
 ### Requirements
@@ -17,7 +17,7 @@ using Fake API [https://fakestoreapi.com/docs](FakeAPI)
 Install dependency
 
 ```console 
-yarn install
+yarn install or npm install
 ```
 ### Run development
 
@@ -53,6 +53,9 @@ docker-compose up -d
 
 Akses -> [http://localhost:3000](http://localhost:3000)
 
+## Screenshoot
+
+![clean architecture](screenshoot.png)
 
 ## Demo
 

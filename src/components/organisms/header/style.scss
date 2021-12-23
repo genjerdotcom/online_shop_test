@@ -1,0 +1,18 @@
+@import "../../properties.scss";
+
+.header{
+    width: 100%;
+    background: var(--color-black);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:1124px;
+        margin:auto;
+        max-width: 100%;
+    }
+}

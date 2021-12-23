@@ -1,0 +1,43 @@
+@import "../../properties.scss";
+
+.nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 10px;
+    .nav--item{
+        .cart, .user, .logout{
+            position: relative;
+            .cart--icon, .user--icon{
+                width: 25px;
+                -webkit-filter: brightness(0) invert(1);
+                -o-filter: brightness(0) invert(1);
+                -moz-filter: brightness(0) invert(1);
+                filter: brightness(0) invert(1);
+            }
+            .logout--icon{
+                width: 20px;
+                margin-left:20px;
+                -webkit-filter: brightness(0) invert(1);
+                -o-filter: brightness(0) invert(1);
+                -moz-filter: brightness(0) invert(1);
+                filter: brightness(0) invert(1);
+            }
+            .counter{
+                color: #fff;
+                background-color: #a34242;
+                padding: 1px 3px;
+                font-size: 12px;
+                border-radius: 15px;
+                position: absolute;
+                right: -5px;
+                bottom: 0px;
+            }
+        }
+        a{
+            padding: 10px;
+            font-size: var(--font-size-m);
+        } 
+    }
+}

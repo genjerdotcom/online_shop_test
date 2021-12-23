@@ -1,0 +1,36 @@
+@import "../../properties.scss";
+
+.moviesDetailContainer{
+    display: block;
+    width: 1124px;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    max-width: 95%;
+    padding-top: 20px;
+    padding-bottom: 170px;
+    ul.movies-detail{
+        width: auto;
+        margin: 0 auto;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #cdcdcd;
+        grid-gap: 1rem;
+        margin-top: 50px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        list-style: none;
+        padding: 15px;
+        margin-bottom: 20px;
+        .movies--item--cover{
+            padding: 20px;
+            img{
+                height: auto;
+                max-height: 90vh;
+            }
+        }
+        .img-cover{
+            max-height: 90vh;
+        }
+    }
+}
