@@ -17,7 +17,7 @@ Using [FakeStoreApi](https://fakestoreapi.com/docs) as API Service
 Install dependency
 
 ```console 
-yarn install or npm install
+yarn install
 ```
 ### Run development
 
