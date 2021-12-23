@@ -53,6 +53,9 @@ docker-compose up -d
 
 Akses -> [http://localhost:3000](http://localhost:3000)
 
+## Demo
+
+[Click](https://online-shop-reactjs.herokuapp.com/)
 
 ### Thank You 
 
