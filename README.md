@@ -1,11 +1,11 @@
-# OMDBAPI ReactJS 
+# Online Shop Simple ReactJS 
 
-[OMDBAPI](https://omdbapi.com/)
+Using [FakeStoreApi](https://fakestoreapi.com/docs) as API Service
 
 ## Case Study
 
-#### Get Movies From Search Keyword
-#### Get Movie Detail
+#### Get Products
+#### Get Product Detail
 
 ## Getting started
 ### Requirements
@@ -53,13 +53,6 @@ docker-compose up -d
 
 Akses -> [http://localhost:3000](http://localhost:3000)
 
-## Screenshoot
-
-![clean architecture](screenshoot.png)
-
-## Demo
-
-[Click](https://omdbapi-reactjs-ginanjardp.web.app/)
 
 ### Thank You 
 
