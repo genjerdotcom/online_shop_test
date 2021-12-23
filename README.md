@@ -57,6 +57,13 @@ Akses -> [http://localhost:3000](http://localhost:3000)
 
 [Click](https://online-shop-reactjs.herokuapp.com/)
 
+```console
+
+username: "mor_2314",
+password: "83r5^_"
+
+```
+
 ### Thank You 
 
 GinanjarDP
